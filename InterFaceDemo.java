@@ -167,7 +167,7 @@ class JumpDog extends Dog implements Jumpping{
 	
 }
 
-class InterFaceDemo {
+class InterfaceDemo {
 	public static void main(String[] arg){
 		JumpCat jc = new JumpCat();
 		jc.setName("哆啦A梦");
