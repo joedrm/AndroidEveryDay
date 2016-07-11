@@ -1,10 +1,10 @@
 ##一、LinearLayout(线性布局)
-![线性布局详解图](LinerLayout01.png)
+![线性布局详解图](images/LinerLayout01.png)
 
 ### weight(权重)属性详解
 #### 1. weight简单使用
 代码实现，先看看效果图：
-![线性布局图一](LinerLayout02.png)![线性布局图二](LinerLayout03.png)
+![线性布局图一](images/LinerLayout02.png)![线性布局图二](images/LinerLayout03.png)
 
 ```java
 
@@ -74,7 +74,7 @@
 </LinearLayout>
 ```
 运行效果如下：
-![线性布局图三](LinerLayout04.png)
+![images/线性布局图三](images/LinerLayout04.png)
 
 2. match_parent则需要计算了
 ```java
@@ -114,7 +114,7 @@
 ```
 
 运行效果如下：
-![线性布局图四](LinerLayout05.png)
+![线性布局图四](images/LinerLayout05.png)
 当我们把`android:layout_height`改为`match_parent`时出现了问题，C区域不见了？网上找到的解释：
 
 	1. 个个都是fill_parent,但是屏幕只有一个啦,那么1 - 3 = - 2 fill_parent step 2:依次比例是1/6,2/6,3/6 step 
@@ -168,7 +168,7 @@
 </LinearLayout>
 ```
 实现效果如下:
-![线性布局图五](LinerLayout06.png)
+![线性布局图五](images/LinerLayout06.png)
 
 ### gravity的使用
 ```java
@@ -205,4 +205,4 @@
 </LinearLayout>
 ```
 运行效果如下：
-![线性布局图六](LinerLayout07.png)
+![线性布局图六](images/LinerLayout07.png)
