@@ -4,3 +4,4 @@
 - [Android布局-LinearLayout详解](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E5%B8%83%E5%B1%80-LinearLayout%E8%AF%A6%E8%A7%A3.md) - LinearLayout详解和实践
 - [Android布局-RelativeLayout详解](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E5%B8%83%E5%B1%80-RelativeLayout%E8%AF%A6%E8%A7%A3.md) - RelativeLayout详解和实践
 - [Android按钮点击的几种写法](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E7%82%B9%E5%87%BB%E7%9A%84%E5%87%A0%E7%A7%8D%E5%86%99%E6%B3%95.md) - Android点击的几种写法和注意点
+- [ListView与BaseAdapater使用]() - 介绍ListView的属性，在下面开发和BaseAdapater结合使用及优化
