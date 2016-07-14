@@ -76,12 +76,25 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            convertView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.item_list_article,parent,false);
-            ImageView img_icon = (ImageView) convertView.findViewById(R.id.list_item_iv);
-            TextView txt_aName = (TextView) convertView.findViewById(R.id.list_item_tv);
-            img_icon.setBackgroundResource(dataList.get(position).getImage());
-            txt_aName.setText(dataList.get(position).getTitle());
+            ViewHolder holder = null;
+
+            if (convertView == null){
+                convertView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.item_list_article,parent,false);
+                holder = new ViewHolder();
+                holder.iconImage = (ImageView) convertView.findViewById(R.id.list_item_iv);
+                holder.titleName = (TextView) convertView.findViewById(R.id.list_item_tv);
+                convertView.setTag(holder);   //将Holder存储到convertView中
+            }else{
+                holder = (ViewHolder) convertView.getTag();
+            }
+            holder.iconImage.setBackgroundResource(dataList.get(position).getImage());
+            holder.titleName.setText(dataList.get(position).getTitle());
             return convertView;
         }
+    }
+
+    static class ViewHolder{
+        ImageView iconImage;
+        TextView titleName;
     }
 }

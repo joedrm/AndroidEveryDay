@@ -249,7 +249,93 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 #### 4. 设置点击颜色cacheColorHint，此属性用于为listView设置背景图片时，去掉listView空白位置背景变黑的情况
 #### 5. 隐藏滑动条：android:scrollbars="none" 或setVerticalScrollBarEnabled(true)
 
-以上是ListView的基本用法，下节来撸一下如何来优化这个BaseAdapter，先到这里吧！
+===
+***以上是ListView的基本用法，下面来撸一下如何来优化这个BaseAdapter***
+
+#### 6. BaseAdapter优化
+
+a. 先来说说为什么要优化：从上面的代码可以看出比较重要的两个方法:getCount()和getView()，dataList.size长度决定有多少列的item就会调用多少次getView， 这个时候每次都是新inflate一个View，都要进行这个XML的解析，这样很浪费，特别实在比较复杂的布局上面就会体现出来，
+b. 优化方法：**复用convertView 以及使用ViewHolder重用组件，不用每次都findViewById**
+
+##### 复用ConvertView
+我们在上面的代码的基础上进行优化之后：其实这个convertView是系统提供给我们的可供复用的View 的缓存对象，那就先判断，若不存在再去创建。效果图跟上面一样的
+
+```java
+@Override
+public View getView(int position, View convertView, ViewGroup parent) {
+    if (convertView == null){
+        convertView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.item_list_article,parent,false);
+    }
+    ImageView img_icon = (ImageView) convertView.findViewById(R.id.list_item_iv);
+    TextView txt_aName = (TextView) convertView.findViewById(R.id.list_item_tv);
+    img_icon.setBackgroundResource(dataList.get(position).getImage());
+    txt_aName.setText(dataList.get(position).getTitle());
+    return convertView;
+}
+```
+##### ViewHolder重用组件
+我们发现getView()被调用多次的同时findViewById()也会被调用多次，而我们的ListView的Item大多数情况下都是一样的布局，此时我们可以自己定义一个ViewHolder类来对这一部分 进行性能优化，修改后的代码如下：
+```java
+public class MyAdapter extends BaseAdapter {
+
+        @Override
+        public int getCount() {
+            return dataList.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            ViewHolder holder = null;
+
+            if (convertView == null){
+                convertView = LayoutInflater.from(getApplicationContext()).inflate(R.layout.item_list_article,parent,false);
+                holder = new ViewHolder();
+                holder.iconImage = (ImageView) convertView.findViewById(R.id.list_item_iv);
+                holder.titleName = (TextView) convertView.findViewById(R.id.list_item_tv);
+                convertView.setTag(holder);   //将Holder存储到convertView中
+            }else{
+                holder = (ViewHolder) convertView.getTag();
+            }
+            holder.iconImage.setBackgroundResource(dataList.get(position).getImage());
+            holder.titleName.setText(dataList.get(position).getTitle());
+            return convertView;
+        }
+    }
+
+    static class ViewHolder{
+        ImageView iconImage;
+        TextView titleName;
+    }
+```
+以上优化是网上看文章得来的，具体是谁我也不记得了，先谢谢了！目前对BaseAdapter做了一个很简单的优化，当然还有更多更好的实现方式，后面有空再加上去。
+
+下面总结开发过程中关于ListView碰到的几个问题。
+##### ListView的焦点问题
+在ListView的Item中添加了Button，CheckBox，EditText等控件的，当我们点击发现的时候， ListView的item点击不了，触发不了onItemClick的方法，也触发不了onItemLongClick方法。原因：ListView的焦点被其他控件抢了
+解决办法：
+
+	1. 给抢占了ListView Item焦点的控件设置android:focusable="false"即可解决这个问题 
+	2. item根节点设置android:descendantFocusability="blocksDescendants"，另外该属性有三个可供选择的值：
+		beforeDescendants：viewgroup会优先其子类控件而获取到焦点
+		afterDescendants：viewgroup只有当其子类控件不需要获取焦点时才获取焦点
+		blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点
+
+至此，我们大概介绍了ListView的相关知识，后面有时间再来介绍ListView的升级版RecyclerView，先到这里了。
+
+
+
+
+
 
 
 
