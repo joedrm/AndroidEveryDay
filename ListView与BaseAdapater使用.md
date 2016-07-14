@@ -7,11 +7,11 @@
 
 一个很简单的ListView，自己写下Item，然后从本地加载数据，`ArticleItem`里面的实现：
 
-\`\`\`java
+```java
 
-/\*\*
+/*
  * Created by wdy on 16/7/12.
- \*/
+ */
 public class ArticleItem {
 
 	public String getTitle() {
@@ -42,13 +42,14 @@ public class ArticleItem {
 	    this.image = image;
 	}
 }
-\`\`\`
+```
 
 这个是item的布局文件`item_list_article.xml`，用的是`RelativeLayout`，一个`ImageView`和`TextView`简单的显示一下
 
-\`\`\`java
-\<?xml version="1.0" encoding="utf-8"?\>
-\<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+```java
+
+<?xml version="1.0" encoding="utf-8"?\>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
 	
@@ -72,13 +73,13 @@ public class ArticleItem {
 	    android:layout_width="wrap_content"
 	    android:layout_height="wrap_content" />
 </RelativeLayout>
-\`\`\`
+```
 
 这是`MainActivity`里面的实现：
 
-\`\`\`java
-public class MainActivity extends Activity {
+```java
 
+public class MainActivity extends Activity {
 	private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
 	private ListView lv;
 	@Override
@@ -126,7 +127,7 @@ public class MainActivity extends Activity {
 	    }
 	}
 }
-\`\`\`
+```
 以上只是简单的示例代码，优化的地方还有很多，后面会慢慢介绍到
 #### 2. 设置listView的表头表尾和分割线
 下面是关于分割线的属性：
