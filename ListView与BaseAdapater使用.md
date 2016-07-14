@@ -319,7 +319,7 @@ public class MyAdapter extends BaseAdapter {
 ```
 以上优化是网上看文章得来的，具体是谁我也不记得了，先谢谢了！目前对BaseAdapter做了一个很简单的优化，当然还有更多更好的实现方式，后面有空再加上去。
 
-下面总结开发过程中关于ListView碰到的几个问题。
+#### 7.下面总结开发过程中关于ListView碰到的几个问题。
 ##### ListView的焦点问题
 在ListView的Item中添加了Button，CheckBox，EditText等控件的，当我们点击发现的时候， ListView的item点击不了，触发不了onItemClick的方法，也触发不了onItemLongClick方法。原因：ListView的焦点被其他控件抢了
 解决办法：
@@ -330,13 +330,38 @@ public class MyAdapter extends BaseAdapter {
 		afterDescendants：viewgroup只有当其子类控件不需要获取焦点时才获取焦点
 		blocksDescendants：viewgroup会覆盖子类控件而直接获得焦点
 
+###### ListView的数据更新(增、删、改)
+还是拿上面的例子来说，当点击listView的headerView的时候我们来增加一条数据试试，
+
+```java
+@Override
+public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//        Toast.makeText(getApplicationContext(),"你点击了第" + position + "项",Toast.LENGTH_SHORT).show();
+   dataList.add(new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03));
+
+   // 在某一个位置添加一个item
+//        dataList.add(2,new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03))
+   myAdapter.notifyDataSetChanged();
+}
+```
+效果：
+
+![](images/listView03.gif)
+
+其实就是操作dataList里面的数据，然后调用`myAdapter.notifyDataSetChanged();`方法来刷新数据，删除操作也是一样的，不同的是更新某一行的item的数据，我们来看看具体的操作。
+
+```java
+private void updateListItem(int postion,ArticleItem item){
+    int visiblePosition = lv.getFirstVisiblePosition();
+    View v = lv.getChildAt(postion - visiblePosition);
+    ImageView img = (ImageView) v.findViewById(R.id.list_item_iv);
+    TextView tv = (TextView) v.findViewById(R.id.list_item_tv);
+    img.setImageResource(item.getImage());
+    tv.setText(item.getTitle());
+}
+```
+
 至此，我们大概介绍了ListView的相关知识，后面有时间再来介绍ListView的升级版RecyclerView，先到这里了。
-
-
-
-
-
-
 
 
 

@@ -10,7 +10,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -18,6 +17,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
 
     private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
     private ListView lv;
+    private MyAdapter myAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,16 +27,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         dataList.add(new ArticleItem("秋韵坝上&nbsp;给你一片金黄色的梦境", R.drawable.imga02));
         dataList.add(new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03));
         dataList.add(new ArticleItem("哈苏X1D&nbsp;我先帮大家试试", R.drawable.imga04));
-        dataList.add(new ArticleItem("阿根廷摄影大师&nbsp;痛苦而又不失尊严", R.drawable.imga05));
-        dataList.add(new ArticleItem("寻找摄影师丨吴建新：紫鹊界，四季四美", R.drawable.imga06));
-        dataList.add(new ArticleItem("2016“阿尔勒摄影节发现奖”揭晓，乌干达女摄影师夺魁！", R.drawable.imga07));
-        dataList.add(new ArticleItem("致PS新手：怎样才能真正学好PS", R.drawable.imga01));
-        dataList.add(new ArticleItem("秋韵坝上&nbsp;给你一片金黄色的梦境", R.drawable.imga02));
-        dataList.add(new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03));
-        dataList.add(new ArticleItem("哈苏X1D&nbsp;我先帮大家试试", R.drawable.imga04));
-        dataList.add(new ArticleItem("阿根廷摄影大师&nbsp;痛苦而又不失尊严", R.drawable.imga05));
-        dataList.add(new ArticleItem("寻找摄影师丨吴建新：紫鹊界，四季四美", R.drawable.imga06));
-        dataList.add(new ArticleItem("2016“阿尔勒摄影节发现奖”揭晓，乌干达女摄影师夺魁！", R.drawable.imga07));
 
         lv = (ListView)findViewById(R.id.lv);
         //动态加载顶部View和底部View
@@ -47,14 +37,22 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         lv.addHeaderView(headView);
         lv.addFooterView(footView);
 
-        lv.setAdapter(new MyAdapter());
+        myAdapter = new MyAdapter();
+        lv.setAdapter(myAdapter);
 
         lv.setOnItemClickListener(this);
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(getApplicationContext(),"你点击了第" + position + "项",Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getApplicationContext(),"你点击了第" + position + "项",Toast.LENGTH_SHORT).show();
+        // 添加一个item
+//        dataList.add(new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03));
+        // 在某一个位置添加一个item
+        // dataList.add(2,new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03))
+        // 更新某一行的item数据
+        updateListItem(1,new ArticleItem("【领绣】家让灵魂自由旅行，如何设计才能做到呢？", R.drawable.imga03));
+        myAdapter.notifyDataSetChanged();
     }
 
     public class MyAdapter extends BaseAdapter {
@@ -96,5 +94,14 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     static class ViewHolder{
         ImageView iconImage;
         TextView titleName;
+    }
+
+    private void updateListItem(int postion,ArticleItem item){
+        int visiblePosition = lv.getFirstVisiblePosition();
+        View v = lv.getChildAt(postion - visiblePosition);
+        ImageView img = (ImageView) v.findViewById(R.id.list_item_iv);
+        TextView tv = (TextView) v.findViewById(R.id.list_item_tv);
+        img.setImageResource(item.getImage());
+        tv.setText(item.getTitle());
     }
 }
