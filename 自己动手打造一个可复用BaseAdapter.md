@@ -579,3 +579,8 @@ private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
 最终效果：
 
 ![](images/CustomBaseAdapter01.png)
+
+参考资料：
+
+1. [Android-打造万能适配器](http://www.imooc.com/view/372) - 鸿洋大神的视频，通过异步设置网络图片等
+2. [ListView Item多布局的实现](http://www.runoob.com/w3cnote/android-tutorial-listview-item.html)

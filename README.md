@@ -5,4 +5,4 @@
 - [Android布局-RelativeLayout详解](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E5%B8%83%E5%B1%80-RelativeLayout%E8%AF%A6%E8%A7%A3.md) - RelativeLayout详解和实践
 - [Android按钮点击的几种写法](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E7%9A%84%E5%87%A0%E7%A7%8D%E5%86%99%E6%B3%95.md) - Android点击的几种写法和注意点
 - [ListView与BaseAdapater使用](https://github.com/wangdongyang/AndroidEveryDay/blob/master/ListView%E4%B8%8EBaseAdapater%E4%BD%BF%E7%94%A8.md) - 介绍ListView的属性，在下面开发和BaseAdapater结合使用及优化
-- [自己动手打造一个可复用BaseAdapter]() - 自定义BaseAdapter详解
+- [自己动手打造一个可复用BaseAdapter](https://github.com/wangdongyang/AndroidEveryDay/blob/master/%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E6%89%93%E9%80%A0%E4%B8%80%E4%B8%AA%E5%8F%AF%E5%A4%8D%E7%94%A8BaseAdapter.md) - 自定义BaseAdapter详解
