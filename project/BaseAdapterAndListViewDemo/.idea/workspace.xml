@@ -9,11 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296258ac-d2bd-4d06-b282-0a42c1f9978d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ListView与BaseAdapater使用.md" afterPath="$PROJECT_DIR$/../../ListView与BaseAdapater使用.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/wdy/com/baseadapterandlistviewdemo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/wdy/com/baseadapterandlistviewdemo/MainActivity.java" />
-    </list>
+    <list default="true" id="296258ac-d2bd-4d06-b282-0a42c1f9978d" name="Default" comment="" />
     <ignored path="BaseAdapterAndListViewDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +32,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/wdy/com/baseadapterandlistviewdemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61764705">
-              <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.5294118">
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -2523,8 +2519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/wdy/com/baseadapterandlistviewdemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61764705">
-          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5294118">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
           <folding />
         </state>
       </provider>
