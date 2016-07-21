@@ -586,3 +586,4 @@ private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
 2. [ListView Item多布局的实现](http://www.runoob.com/w3cnote/android-tutorial-listview-item.html)
 3. [Android 打造万能适配器](http://www.voidcn.com/blog/zxw136511485/article/p-4946137.html)
 4. [Android：打造“万能”Adapter与ViewHolder](https://zhuanlan.zhihu.com/p/21355804?refer=iamxiarui)
+5. [RecyclerView的ViewHolder和Adapter的封装优化](http://blog.devwiki.net/index.php/2016/07/17/Recycler-View-Adapter-ViewHolder-optimized.html)
