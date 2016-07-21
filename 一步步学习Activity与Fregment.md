@@ -1,7 +1,7 @@
 ### 一步步学习Activity与Fregment
 
 #### 1、介绍：
-	[官网文档](http://androiddoc.qiniudn.com/guide/components/activities.html)，其大意是：Activity是一个应用程序的组件，他在屏幕上提供了一个区域，允许用户在上面做一些交互性的操作， 比如打电话，照相，发送邮件，或者显示一个地图！Activity可以理解成一个绘制用户界面的窗口， 而这个窗口可以填满整个屏幕，也可能比屏幕小或者浮动在其他窗口的上方！
+[官网文档](http://androiddoc.qiniudn.com/guide/components/activities.html)，其大意是：Activity是一个应用程序的组件，他在屏幕上提供了一个区域，允许用户在上面做一些交互性的操作， 比如打电话，照相，发送邮件，或者显示一个地图！Activity可以理解成一个绘制用户界面的窗口， 而这个窗口可以填满整个屏幕，也可能比屏幕小或者浮动在其他窗口的上方！
 
 #### 2、生命周期
 ![](images/Activity01.jpg)
