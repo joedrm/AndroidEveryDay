@@ -582,6 +582,7 @@ private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
 
 参考资料：
 
+0. [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况
 1. [Android-打造万能适配器](http://www.imooc.com/view/372) - 鸿洋大神的视频，通过异步设置网络图片等
 2. [ListView Item多布局的实现](http://www.runoob.com/w3cnote/android-tutorial-listview-item.html)
 3. [Android 打造万能适配器](http://www.voidcn.com/blog/zxw136511485/article/p-4946137.html)

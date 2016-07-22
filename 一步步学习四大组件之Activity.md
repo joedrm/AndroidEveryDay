@@ -1,4 +1,4 @@
-### 一步步学习Activity与Fregment
+### 一步步学习四大组件之Activity
 
 #### 1、介绍：
 [官网文档](http://androiddoc.qiniudn.com/guide/components/activities.html)，其大意是：Activity是一个应用程序的组件，他在屏幕上提供了一个区域，允许用户在上面做一些交互性的操作， 比如打电话，照相，发送邮件，或者显示一个地图！Activity可以理解成一个绘制用户界面的窗口， 而这个窗口可以填满整个屏幕，也可能比屏幕小或者浮动在其他窗口的上方！
@@ -228,4 +228,61 @@ else if (this.getResources().getConfiguration().orientation ==Configuration.ORIE
      startActivity(intent);*/
  }
 ```
+
+#### 6、Activity间的数据传递
+
+```java
+
+public class MainActivity extends AppCompatActivity {
+
+    private Button clicked;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        clicked = (Button) findViewById(R.id.button);
+        clicked.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // 一次传递单个数据
+                Intent n1 = new Intent(MainActivity.this, MyAcitvity.class);
+                n1.putExtra("key","你好啊！");
+                startActivity(n1);
+
+                // 一次传递多个数据
+                Intent n2 = new Intent(MainActivity.this, MyAcitvity.class);
+                Bundle bundle = new Bundle();
+                bundle.putInt("number",1);
+                bundle.putString("message","呵呵");
+                n2.putExtras(bundle);
+                startActivity(n2);
+            }
+        });
+    }
+}
+```
+#### 6、多个Activity间的交互(后一个传回给前一个)
+![](images/Activity02.gif)
+实现步骤见项目[Demo]()
+
+#### 7、Activity，Window与View的关系
+![](http://www.runoob.com/wp-content/uploads/2015/08/93497523.jpg)
+
+#### 8、启动模式(launchMode)，
+分别是：standard(默认)，singleTop，singleTask，singleInstance，如图：
+![](http://www.runoob.com/wp-content/uploads/2015/08/50179298.jpg)
+参考：
+
+- [Activity登堂入室](http://www.runoob.com/w3cnote/android-tutorial-activity-intro.html)
+- [Activity启动模式图文详解：standard, singleTop, singleTask 以及 singleInstance](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0520/2897.html) - 泡在网上的日子
+- [Android中Activity四种启动模式和taskAffinity属性详解](http://blog.csdn.net/zhangjg_blog/article/details/10923643)
+
+
+
+
+
+
+
 

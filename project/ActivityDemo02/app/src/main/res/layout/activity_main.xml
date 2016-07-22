@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wdy.com.activitydemo02.MainActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="#290"
+        android:id="@+id/textView"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:hint="下一个界面返回的值" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一个界面"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:background="#ff0" />
+</RelativeLayout>
