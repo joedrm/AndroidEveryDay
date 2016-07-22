@@ -265,7 +265,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 #### 6、多个Activity间的交互(后一个传回给前一个)
 ![](images/Activity02.gif)
-实现步骤见项目[Demo]()
+
+实现步骤见项目[Demo](https://github.com/wangdongyang/AndroidEveryDay/tree/master/project/ActivityDemo02)
 
 #### 7、Activity，Window与View的关系
 ![](http://www.runoob.com/wp-content/uploads/2015/08/93497523.jpg)
@@ -273,7 +274,8 @@ public class MainActivity extends AppCompatActivity {
 #### 8、启动模式(launchMode)，
 分别是：standard(默认)，singleTop，singleTask，singleInstance，如图：
 ![](http://www.runoob.com/wp-content/uploads/2015/08/50179298.jpg)
-参考：
+
+参考资料：
 
 - [Activity登堂入室](http://www.runoob.com/w3cnote/android-tutorial-activity-intro.html)
 - [Activity启动模式图文详解：standard, singleTop, singleTask 以及 singleInstance](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0520/2897.html) - 泡在网上的日子
