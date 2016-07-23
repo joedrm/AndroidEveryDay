@@ -588,3 +588,4 @@ private ArrayList<ArticleItem> dataList = new ArrayList<ArticleItem>();
 3. [Android 打造万能适配器](http://www.voidcn.com/blog/zxw136511485/article/p-4946137.html)
 4. [Android：打造“万能”Adapter与ViewHolder](https://zhuanlan.zhihu.com/p/21355804?refer=iamxiarui)
 5. [RecyclerView的ViewHolder和Adapter的封装优化](http://blog.devwiki.net/index.php/2016/07/17/Recycler-View-Adapter-ViewHolder-optimized.html)
+6. [Android应用系列：值得收藏的ViewHolder工具类实现](http://www.cnblogs.com/net168/p/4477925.html)
