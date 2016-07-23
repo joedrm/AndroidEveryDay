@@ -9,8 +9,6 @@
 - [Android事件的处理](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%A4%84%E7%90%86.md) - 初步认识Android的事件处理
 <<<<<<< HEAD
 - [一步步学习四大组件之Activity](https://github.com/wangdongyang/AndroidEveryDay/blob/master/%E4%B8%80%E6%AD%A5%E6%AD%A5%E5%AD%A6%E4%B9%A0Activity%E4%B8%8EFregment.md)
-- [Fragment详解]()
-=======
-- [一步步学习四大组件之Activity](https://github.com/wangdongyang/AndroidEveryDay/blob/master/%E4%B8%80%E6%AD%A5%E6%AD%A5%E5%AD%A6%E4%B9%A0%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6%E4%B9%8BActivity.md) - 简单总结Activity的相关知识点
->>>>>>> origin/master
+- [Fragment详解](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Fragment%E8%AF%A6%E8%A7%A3.md)
+
 
