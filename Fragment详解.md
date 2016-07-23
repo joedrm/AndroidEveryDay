@@ -75,7 +75,7 @@ public class MainActivity extends Activity {
 
 #### 6. Fragment与Activity通信
 
-![Fragment与Activity通信][1]
+![Fragment与Activity通信](http://www.runoob.com/wp-content/uploads/2015/08/45971686.jpg)
 
 
 + 组件获取
@@ -118,9 +118,5 @@ leftFragment.getData(new CallBack() {
 
 参考资料：
 
-    - [Fragment基本概述][2]
-    
-
-  [1]: http://www.runoob.com/wp-content/uploads/2015/08/45971686.jpg
-  [2]: http://www.runoob.com/w3cnote/android-tutorial-fragment-base.html
+    - [Fragment基本概述](http://www.runoob.com/w3cnote/android-tutorial-fragment-base.html)
 	
