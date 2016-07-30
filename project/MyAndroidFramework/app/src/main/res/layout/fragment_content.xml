@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <wdy.com.myandroidframework.NoscrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#FFC4C4C4"
+        ></View>
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#fff">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/BottomButtonStyle"
+            android:text="首页"
+            android:checked="true"
+            android:drawableTop="@drawable/btn_home_selector"
+            />
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/BottomButtonStyle"
+            android:text="消息"
+            android:drawableTop="@drawable/btn_news_selector"
+            />
+        <RadioButton
+            android:id="@+id/rb_smart"
+            style="@style/BottomButtonStyle"
+            android:text="发现"
+            android:drawableTop="@drawable/btn_smart_selector"
+            />
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/BottomButtonStyle"
+            android:text="我"
+            android:drawableTop="@drawable/btn_setting_selector"
+            />
+    </RadioGroup>
+
+</LinearLayout>
