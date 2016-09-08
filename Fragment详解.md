@@ -117,6 +117,5 @@ leftFragment.getData(new CallBack() {
 ```
 
 参考资料：
-
-    - [Fragment基本概述](http://www.runoob.com/w3cnote/android-tutorial-fragment-base.html)
+- [Fragment基本概述](http://www.runoob.com/w3cnote/android-tutorial-fragment-base.html)
 	
