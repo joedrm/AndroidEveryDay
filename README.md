@@ -1,5 +1,5 @@
 ### 主要记录Android学习的笔记，经常更新
-- [Java学习资料]() - 收集了Java的资料、教程、学习网站、开源项目
+- [Java学习资料](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Java%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.md) - 收集了Java的资料、教程、学习网站、开源项目等。
 - [InterfaceDemo](https://github.com/wangdongyang/AndroidEveryDay/blob/master/project/InterfaceDemo.java) - 主要介绍Java的抽象类和接口
 - [adb命令的使用](https://github.com/wangdongyang/AndroidEveryDay/blob/master/adb%E7%9A%84%E4%BD%BF%E7%94%A8.md) - 简单介绍adb命令的使用
 - [Android布局-LinearLayout详解](https://github.com/wangdongyang/AndroidEveryDay/blob/master/Android%E5%B8%83%E5%B1%80-LinearLayout%E8%AF%A6%E8%A7%A3.md) - LinearLayout详解和实践
