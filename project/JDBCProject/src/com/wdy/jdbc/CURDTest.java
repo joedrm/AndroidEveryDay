@@ -1,7 +1,7 @@
 package com.wdy.jdbc;
 
-import com.wdy.jdbc.com.wdy.entity.User;
-import com.wdy.jdbc.com.wdy.util.DBUtils;
+import com.wdy.entity.User;
+import com.wdy.util.DBUtils;
 import org.junit.Test;
 
 import java.sql.Connection;

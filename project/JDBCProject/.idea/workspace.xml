@@ -35,54 +35,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JdbcDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JdbcDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="527">
+              <caret line="291" column="17" selection-start-line="291" selection-start-column="17" selection-end-line="291" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1474513132000" expanded="true" signature="2022:2041" ph="SELECT * FRO... users" />
-                <marker date="1474513132000" expanded="true" signature="2942:2961" ph="SELECT * FRO... users" />
-                <marker date="1474513132000" expanded="true" signature="4322:4341" ph="SELECT * FRO... users" />
+                <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+                <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+                <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+                <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+                <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+                <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+                <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+                <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+                <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java">
+      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="540">
+              <caret line="279" column="9" selection-start-line="279" selection-start-column="9" selection-end-line="279" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CURDTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/CURDTest.java">
+      <file leaf-file-name="C3P0Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/util/C3P0Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1474515010000" expanded="true" signature="608:644" ph="INSERT INTO users... " />
-                <marker date="1474515010000" expanded="true" signature="1469:1547" ph="UPDATE users... " />
-                <marker date="1474515010000" expanded="true" signature="2102:2130" ph="DELETE FROM " />
-                <marker date="1474515010000" expanded="true" signature="2119:2130" ph="UPDATE users... " />
-                <marker date="1474515010000" expanded="true" signature="2685:2734" ph="SELECT passw... users" />
-                <marker date="1474515010000" expanded="true" signature="2723:2734" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/util/DBUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="404">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,22 +78,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbinfo.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dbinfo.properties">
+      <file leaf-file-name="c3p0-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <file leaf-file-name="dbcpconfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbinfo.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/util/dbinfo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyConnectionWarper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnectionWarper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBCPUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBCPUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleConnectionPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wdy/pool/SimpleConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,11 +173,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java" />
         <option value="$PROJECT_DIR$/src/com/wdy/jdbc/dbinfo.properties" />
+        <option value="$PROJECT_DIR$/src/com/wdy/pool/MyDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/datasource/MyConnection.java" />
         <option value="$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/util/DBUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/com/wdy/warper/MyConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/com/wdy/warper/MyConnectionWarper.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/pool/SimpleConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/com/wdy/jdbc/CURDTest.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/datasource/MyDataSource.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/warper/MyConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/util/DBCPUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/wdy/util/C3P0Util.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/dbcpconfig.properties" />
+        <option value="$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java" />
       </list>
     </option>
   </component>
@@ -181,9 +238,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,6 +291,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="wdy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDBCProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDBCProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wdy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDBCProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JDBCProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wdy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jdbc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -260,123 +361,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/wdy/util" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcDemo.test3">
-    <configuration default="false" name="CURDTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wdy.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JDBCProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.CURDTest" />
-      <option name="METHOD_NAME" value="insert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CURDTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wdy.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JDBCProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.CURDTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CURDTest.select" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wdy.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JDBCProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.CURDTest" />
-      <option name="METHOD_NAME" value="select" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="JdbcDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.wdy.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JDBCProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.JdbcDemo.test8">
     <configuration default="false" name="JdbcDemo.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -390,6 +389,110 @@
       <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
       <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
       <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wdy.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JDBCProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcDemo.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wdy.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JDBCProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcDemo.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wdy.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JDBCProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcDemo.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wdy.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JDBCProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wdy.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.wdy.jdbc.JdbcDemo" />
+      <option name="METHOD_NAME" value="test8" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -431,10 +534,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -457,10 +557,7 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -837,19 +934,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CURDTest.insert" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CURDTest.delete" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CURDTest.select" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test3" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcDemo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test4" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test5" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test3" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CURDTest.insert" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CURDTest.select" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CURDTest.delete" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test8" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test4" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcDemo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcDemo.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -866,43 +963,45 @@
       <workItem from="1474452079561" duration="6661000" />
       <workItem from="1474473654461" duration="5526000" />
       <workItem from="1474528629360" duration="13000" />
+      <workItem from="1474599893446" duration="8623000" />
+      <workItem from="1474718979861" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CURDTest_insert - 2016.09.22 at 11h 00m 29s.xml">
-      <configuration name="CURDTest.insert" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test4 - 2016.09.23 at 11h 17m 23s.xml">
+      <configuration name="JdbcDemo.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CURDTest_insert - 2016.09.22 at 11h 28m 05s.xml">
-      <configuration name="CURDTest.insert" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test4 - 2016.09.23 at 11h 18m 45s.xml">
+      <configuration name="JdbcDemo.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CURDTest_insert - 2016.09.22 at 11h 29m 07s.xml">
-      <configuration name="CURDTest.insert" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test4 - 2016.09.23 at 11h 19m 55s.xml">
+      <configuration name="JdbcDemo.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CURDTest_insert - 2016.09.22 at 11h 29m 34s.xml">
-      <configuration name="CURDTest.insert" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test5 - 2016.09.23 at 11h 23m 37s.xml">
+      <configuration name="JdbcDemo.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CURDTest_insert - 2016.09.22 at 11h 30m 13s.xml">
-      <configuration name="CURDTest.insert" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test5 - 2016.09.23 at 11h 24m 11s.xml">
+      <configuration name="JdbcDemo.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CURDTest_select - 2016.09.22 at 11h 05m 06s.xml">
-      <configuration name="CURDTest.select" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test8 - 2016.09.24 at 19h 18m 44s.xml">
+      <configuration name="JdbcDemo.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcDemo_test3 - 2016.09.22 at 10h 56m 22s.xml">
-      <configuration name="JdbcDemo.test3" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test8 - 2016.09.24 at 19h 19m 24s.xml">
+      <configuration name="JdbcDemo.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcDemo_test3 - 2016.09.22 at 11h 01m 23s.xml">
-      <configuration name="JdbcDemo.test3" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test8 - 2016.09.24 at 19h 20m 41s.xml">
+      <configuration name="JdbcDemo.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcDemo_test3 - 2016.09.22 at 11h 29m 53s.xml">
-      <configuration name="JdbcDemo.test3" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test8 - 2016.09.24 at 19h 22m 12s.xml">
+      <configuration name="JdbcDemo.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcDemo_test3 - 2016.09.22 at 11h 30m 31s.xml">
-      <configuration name="JdbcDemo.test3" configurationId="JUnit" />
+    <history-entry file="JdbcDemo_test8 - 2016.09.24 at 19h 27m 57s.xml">
+      <configuration name="JdbcDemo.test8" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12200000" />
+    <option name="totallyTimeSpent" value="21000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -923,12 +1022,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37678856" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55325913" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24838188" sideWeight="0.49052134" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31877023" sideWeight="0.49052134" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -967,22 +1066,192 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1474513132000" expanded="true" signature="2022:2041" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="2942:2961" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="4322:4341" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/C3P0Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/dbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnectionWarper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBCPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/pool/SimpleConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/CURDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+          <folding>
+            <marker date="1474704878000" expanded="true" signature="582:618" ph="INSERT INTO users... " />
+            <marker date="1474704878000" expanded="true" signature="1443:1521" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2076:2104" ph="DELETE FROM " />
+            <marker date="1474704878000" expanded="true" signature="2093:2104" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2659:2708" ph="SELECT passw... users" />
+            <marker date="1474704878000" expanded="true" signature="2697:2708" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/dbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -991,28 +1260,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1474515010000" expanded="true" signature="608:644" ph="INSERT INTO users... " />
-            <marker date="1474515010000" expanded="true" signature="1469:1547" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2102:2130" ph="DELETE FROM " />
-            <marker date="1474515010000" expanded="true" signature="2119:2130" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2685:2734" ph="SELECT passw... users" />
-            <marker date="1474515010000" expanded="true" signature="2723:2734" ph="SELECT * FRO... users" />
+            <marker date="1474704878000" expanded="true" signature="582:618" ph="INSERT INTO users... " />
+            <marker date="1474704878000" expanded="true" signature="1443:1521" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2076:2104" ph="DELETE FROM " />
+            <marker date="1474704878000" expanded="true" signature="2093:2104" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2659:2708" ph="SELECT passw... users" />
+            <marker date="1474704878000" expanded="true" signature="2697:2708" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/util/DBUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbinfo.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/dbinfo.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="35" />
@@ -1024,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,18 +1299,23 @@
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1474513132000" expanded="true" signature="2022:2041" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="2942:2961" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="4322:4341" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,13 +1324,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1474515010000" expanded="true" signature="608:644" ph="INSERT INTO users... " />
-            <marker date="1474515010000" expanded="true" signature="1469:1547" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2102:2130" ph="DELETE FROM " />
-            <marker date="1474515010000" expanded="true" signature="2119:2130" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2685:2734" ph="SELECT passw... users" />
-            <marker date="1474515010000" expanded="true" signature="2723:2734" ph="SELECT * FRO... users" />
+            <marker date="1474704878000" expanded="true" signature="582:618" ph="INSERT INTO users... " />
+            <marker date="1474704878000" expanded="true" signature="1443:1521" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2076:2104" ph="DELETE FROM " />
+            <marker date="1474704878000" expanded="true" signature="2093:2104" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2659:2708" ph="SELECT passw... users" />
+            <marker date="1474704878000" expanded="true" signature="2697:2708" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,22 +1359,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/JDBCProject.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/CURDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1474704878000" expanded="true" signature="582:618" ph="INSERT INTO users... " />
+            <marker date="1474704878000" expanded="true" signature="1443:1521" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2076:2104" ph="DELETE FROM " />
+            <marker date="1474704878000" expanded="true" signature="2093:2104" ph="UPDATE users... " />
+            <marker date="1474704878000" expanded="true" signature="2659:2708" ph="SELECT passw... users" />
+            <marker date="1474704878000" expanded="true" signature="2697:2708" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="5" selection-start-line="27" selection-start-column="31" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/datasource/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/datasource/MyDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/com/wdy/util/DBUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/pool/SimpleConnectionPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/warper/MyConnectionWarper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/DBCPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbcpconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/dbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="279" column="9" selection-start-line="279" selection-start-column="9" selection-end-line="279" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wdy/util/C3P0Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1115,38 +1506,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/JdbcDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="527">
+          <caret line="291" column="17" selection-start-line="291" selection-start-column="17" selection-end-line="291" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1474513132000" expanded="true" signature="2022:2041" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="2942:2961" ph="SELECT * FRO... users" />
-            <marker date="1474513132000" expanded="true" signature="4322:4341" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="2096:2115" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="3016:3035" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="4430:4449" ph="SELECT * FRO... users" />
+            <marker date="1474716473000" expanded="true" signature="5391:5427" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5391:5437" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="5559:5605" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6206:6252" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="6376:6422" ph="UPDATE users... " />
+            <marker date="1474716473000" expanded="true" signature="7996:8015" ph="SELECT * FRO... users" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wdy/jdbc/CURDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1474515010000" expanded="true" signature="608:644" ph="INSERT INTO users... " />
-            <marker date="1474515010000" expanded="true" signature="1469:1547" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2102:2130" ph="DELETE FROM " />
-            <marker date="1474515010000" expanded="true" signature="2119:2130" ph="UPDATE users... " />
-            <marker date="1474515010000" expanded="true" signature="2685:2734" ph="SELECT passw... users" />
-            <marker date="1474515010000" expanded="true" signature="2723:2734" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbinfo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>

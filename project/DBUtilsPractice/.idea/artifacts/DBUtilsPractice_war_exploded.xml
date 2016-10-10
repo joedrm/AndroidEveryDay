@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DBUtilsPractice:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DBUtilsPractice_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="DBUtilsPractice/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DBUtilsPractice" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-5.0.8-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/commons-dbutils-1.4.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="DBUtilsPractice" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

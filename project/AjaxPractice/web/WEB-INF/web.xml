@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <display-name>Apache-Axis</display-name>
+
+    <servlet>
+        <servlet-name>AjaxDemoServlet</servlet-name>
+        <servlet-class>com.wdy.ajaxdemo.AjaxDemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjaxDemoServlet</servlet-name>
+        <url-pattern>/servlet/ajaxDemoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CkNameServlet</servlet-name>
+        <servlet-class>com.wdy.ajaxdemo.CkNameServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CkNameServlet</servlet-name>
+        <url-pattern>/servlet/ckNameServlet</url-pattern>
+    </servlet-mapping>
+
+    <mime-mapping>
+        <extension>wsdl</extension>
+        <mime-type>text/xml</mime-type>
+    </mime-mapping>
+</web-app>

@@ -1,13 +1,16 @@
 package com.wdy.jdbc;
 
-import com.wdy.jdbc.com.wdy.entity.User;
-import com.wdy.jdbc.com.wdy.util.DBUtils;
+import com.wdy.entity.User;
+import com.wdy.util.C3P0Util;
+import com.wdy.util.DBCPUtil;
+import com.wdy.util.DBUtils;
+import com.wdy.datasource.MyDataSource;
 import org.junit.Test;
 
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 /**
  * Created by wdy on 16/9/21.
@@ -123,6 +126,9 @@ public class JdbcDemo {
 
     }
 
+    /**
+     * DBUtils的使用
+     */
     @Test
     public void test3() {
         Connection conn = null;
@@ -132,6 +138,142 @@ public class JdbcDemo {
             conn = DBUtils.getConnection();
             statement = conn.createStatement();
             set = statement.executeQuery("SELECT * FROM users");
+            List<User> list = new ArrayList<>();
+            while (set.next()) {
+//                User user = new User();
+//                user.setId(set.getInt("id"));
+//                user.setName(set.getString("name"));
+//                user.setPassword(set.getString("password"));
+//                user.setEmail(set.getString("email"));
+//                user.getBirthday(set.getDate("birthday"));
+//                list.add(user);
+            }
+            for (User user : list) {
+                System.out.println(user);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            DBUtils.closeAll(set, conn, statement);
+        }
+
+    }
+
+    /**
+     * 未使用事务之前
+     */
+    @Test
+    public void test4(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = DBUtils.getConnection();
+            ps = conn.prepareStatement("UPDATE users SET password=999 WHERE name='wdy'");
+            ps.executeUpdate();
+
+            int i= 10/0; // 模拟程序执行中断后出现数据错误
+
+            ps = conn.prepareStatement("UPDATE users SET password=999 WHERE name='tom'");
+            ps.executeUpdate();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            DBUtils.closeAll(null,conn,ps);
+        }
+
+    }
+
+    /**
+     * 使用事务之后,
+     */
+    @Test
+    public void test5(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = DBUtils.getConnection();
+            // TRANSACTION_REPEATABLE_READ  mysql的默认级别
+            conn.setTransactionIsolation(Connection.TRANSACTION_REPEATABLE_READ);
+            conn.setAutoCommit(false);// 开启事务
+            ps = conn.prepareStatement("UPDATE users SET password=666 WHERE name='wdy'");
+            ps.executeUpdate();
+
+            int i= 10/0; // 模拟程序执行中断后,数据都没有改变
+
+            ps = conn.prepareStatement("UPDATE users SET password=666 WHERE name='tom'");
+            ps.executeUpdate();
+
+            conn.commit();// 提交事务
+        } catch (Exception e) {
+            try {
+                conn.rollback();// 回滚事务
+            } catch (SQLException e1) {
+                e1.printStackTrace();
+            }
+            e.printStackTrace();
+        }finally {
+            DBUtils.closeAll(null,conn,ps);
+        }
+    }
+    /**
+     * 数据库连接池的使用, 装饰设计模式的使用
+     */
+    public void test6(){
+        DataSource dataSource = new MyDataSource();
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = dataSource.getConnection();
+            ps = conn.prepareStatement("");
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            // 此时这里不能直接关闭, 应该放入数据库连接池(pool),
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * DBCP实践
+     */
+    public void test7(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = DBCPUtil.getConnection();
+            ps = conn.prepareStatement("...");
+
+//			...
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally{
+            DBCPUtil.release(conn, ps, null);
+        }
+    }
+
+    /**
+     * C3P0的使用
+     */
+    @Test
+    public void test8(){
+        Connection conn = null;
+        PreparedStatement ps = null;
+
+        try {
+            conn = C3P0Util.getConnection();
+            ps = conn.prepareStatement("SELECT * FROM users");
+            ResultSet set = ps.executeQuery();
             List<User> list = new ArrayList<>();
             while (set.next()) {
                 User user = new User();
@@ -147,9 +289,9 @@ public class JdbcDemo {
             }
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            DBUtils.closeAll(set, conn, statement);
+        }finally{
+            C3P0Util.release(conn, ps, null);
         }
-
+        System.out.println(conn.getClass().getName());
     }
 }
