@@ -20,6 +20,7 @@
 - [Learn-Algorithms](https://github.com/nonstriater/Learn-Algorithms) - 算法学习笔记
 - [Algorithm](https://github.com/junicorn/Algorithm) - Java算法题，数据结构分析和实现
 - [algorithms](https://github.com/nibnait/algorithms) - 《算法 (第4版)》、牛课堂、《剑指Offer》、《编程之美》
+- [数据结构与算法/leetcode/lintcode题解](https://algorithm.yuanbin.me/zh-hans/)、[data-structure-and-algorithm-notes](http://www.kancloud.cn/kancloud/data-structure-and-algorithm-notes)
 
 ### 开源项目
 - [java-china](https://github.com/junicorn/java-china) - Java中国论坛开源
